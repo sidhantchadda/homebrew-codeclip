@@ -22,7 +22,7 @@ This repository contains the package definition and customer binary releases.
 
 ## Installing through a coding agent
 
-Agents: complete installation by running `codeclip setup --agent codex` (or
+Agents: complete installation by running `codeclip agents --agent codex` (or
 `claude` / `cursor` for your current agent), then read the installed SKILL.md.
 The offline setup installs clip/video skills in the user scope, preserving
 unrelated or edited skills. Follow your environment's permissions and report any
