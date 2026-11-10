@@ -1,19 +1,19 @@
 class Codeclip < Formula
   desc "Turn code into narrated videos"
   homepage "https://trycodeclip.com"
-  version "0.1.6"
+  version "0.1.7"
   license "MIT"
 
   depends_on arch: :arm64
 
   on_macos do
-    url "https://github.com/sidhantchadda/homebrew-codeclip/releases/download/v0.1.6/codeclip-macos-arm64.tar.gz"
-    sha256 "303e37ddd9c05c7d27aaa2a5c4a49c4501586363aed847e2dbdd3953fe85731e"
+    url "https://github.com/sidhantchadda/homebrew-codeclip/releases/download/v0.1.7/codeclip-macos-arm64.tar.gz"
+    sha256 "19f85cbb86c028b587757edbdc8760baab88d2d9a4e3b778a4d5392be37c7d96"
   end
 
   on_linux do
-    url "https://github.com/sidhantchadda/homebrew-codeclip/releases/download/v0.1.6/codeclip-linux-arm64.tar.gz"
-    sha256 "1f44154612fe55b6bd7490f861aeac899f42ad17fce75a9ae87b4c06d1bf1711"
+    url "https://github.com/sidhantchadda/homebrew-codeclip/releases/download/v0.1.7/codeclip-linux-arm64.tar.gz"
+    sha256 "232dbb67ceff13a151ab4733e21b63a10d8fb0b6f3d010e77344015801502bfd"
   end
 
   def install
