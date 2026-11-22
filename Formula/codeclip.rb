@@ -1,19 +1,19 @@
 class Codeclip < Formula
   desc "Turn code into narrated videos"
   homepage "https://trycodeclip.com"
-  version "0.1.10"
+  version "0.1.11"
   license "MIT"
 
   depends_on arch: :arm64
 
   on_macos do
-    url "https://github.com/sidhantchadda/homebrew-codeclip/releases/download/v0.1.10/codeclip-macos-arm64.tar.gz"
-    sha256 "a2437d1a3876ed42e4a869e35790fabcb26d173be64a3b14d4444fc4879fa1ad"
+    url "https://github.com/sidhantchadda/homebrew-codeclip/releases/download/v0.1.11/codeclip-macos-arm64.tar.gz"
+    sha256 "3e94efdd781689e4d004d7f87f3d5e1305dcbee99c9e2ceee910aecdf37b1c6d"
   end
 
   on_linux do
-    url "https://github.com/sidhantchadda/homebrew-codeclip/releases/download/v0.1.10/codeclip-linux-arm64.tar.gz"
-    sha256 "d35293705358380b61432102bf58e4ebebc308ac513752cadb0740d509e3468e"
+    url "https://github.com/sidhantchadda/homebrew-codeclip/releases/download/v0.1.11/codeclip-linux-arm64.tar.gz"
+    sha256 "8156a81850915d87e1c6bdb37f6bed2035052318ddc1001713074883c3ff83bb"
   end
 
   def install
@@ -22,6 +22,8 @@ class Codeclip < Formula
 
   def caveats
     <<~EOS
+      Agents: check codeclip check-update --json before each run. If an update
+      is available, upgrade first, then refresh the skill below.
       Installing for a coding agent? Complete the integration now:
         codeclip agents --agent codex
       Use --agent claude or --agent cursor for those agents.
