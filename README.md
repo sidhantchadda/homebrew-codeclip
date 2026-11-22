@@ -12,7 +12,7 @@ Update with `brew upgrade codeclip`. Remove with `brew uninstall codeclip`.
 Intel/AMD and Windows builds are not available yet.
 
 Codeclip investigates your repository locally and generates narrated videos in
-its cloud service. An account is required; two free clips are included. Provider
+its cloud service. New accounts need a Personal subscription or a paid team workspace to create videos. Provider
 API keys, Rust, and Node are not required. Selected source excerpts are sent to
 the service during investigation.
 
